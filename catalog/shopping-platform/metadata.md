@@ -57,7 +57,7 @@ For each entity, the following metadata is captured:
 ## 7. GitHub Integration
 
 - `github.com/project-slug`: Repository reference for internal components
-  - Format: `Oz-hubs/{repository-name}`
+  - Format: `HylandSandbox/{repository-name}`
   - 8 internal repositories tracked (all others are external or utilities)
 
 ## 8. TechDocs Integration

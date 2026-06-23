@@ -1,14 +1,14 @@
 ---
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
-# Root organization group for Oz-hubs.
+# Root organization group for HylandSandbox.
 # The GitHub Org catalog provider will automatically create User and child Group
-# entities for every member and team in the Oz-hubs GitHub organization.
+# entities for every member and team in the HylandSandbox GitHub organization.
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: oz-hubs
   annotations:
-    github.com/team-slug: Oz-hubs
+    github.com/team-slug: HylandSandbox
   links:
     - url: 'https://teams.microsoft.com/l/channel/19%3AwpFJUbTuaBuIhhecEj5mt5URreZw7EET_BG1Ro6pI181%40thread.tacv2/DevEx?groupId=5944ba60-15cf-4b5c-b359-a7819160e34a&tenantId=8ca5db88-a5ab-48f7-a5e0-4ce50935f807&ngc=true'
       title: Microsoft Teams Channel

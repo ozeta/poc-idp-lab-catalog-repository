@@ -13,4 +13,4 @@ Web frontend for the `shopping-platform` system.
 
 ## Local development
 
-This is an example entity — no real source yet. To wire a real repository, create `Oz-hubs/shop-web` on GitHub.
+This is an example entity — no real source yet. To wire a real repository, create `HylandSandbox/shop-web` on GitHub.

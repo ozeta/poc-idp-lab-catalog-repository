@@ -32,7 +32,7 @@ metadata:
     - frontend
     - example
   annotations:
-    github.com/project-slug: Oz-hubs/shop-web
+    github.com/project-slug: HylandSandbox/shop-web
     backstage.io/techdocs-ref: dir:./shop-web
   links:
     - url: 'https://teams.microsoft.com/l/channel/19%3AwpFJUbTuaBuIhhecEj5mt5URreZw7EET_BG1Ro6pI181%40thread.tacv2/DevEx?groupId=5944ba60-15cf-4b5c-b359-a7819160e34a&tenantId=8ca5db88-a5ab-48f7-a5e0-4ce50935f807&ngc=true'
@@ -57,7 +57,7 @@ metadata:
     - backend
     - example
   annotations:
-    github.com/project-slug: Oz-hubs/shop-orders-service
+    github.com/project-slug: HylandSandbox/shop-orders-service
     backstage.io/techdocs-ref: dir:./shop-orders-service
   links:
     - url: 'https://teams.microsoft.com/l/channel/19%3AwpFJUbTuaBuIhhecEj5mt5URreZw7EET_BG1Ro6pI181%40thread.tacv2/DevEx?groupId=5944ba60-15cf-4b5c-b359-a7819160e34a&tenantId=8ca5db88-a5ab-48f7-a5e0-4ce50935f807&ngc=true'
@@ -230,7 +230,7 @@ metadata:
     - backend
     - example
   annotations:
-    github.com/project-slug: Oz-hubs/shop-catalog-service
+    github.com/project-slug: HylandSandbox/shop-catalog-service
     backstage.io/techdocs-ref: dir:./shop-catalog-service
   links:
     - url: 'https://teams.microsoft.com/l/channel/19%3AwpFJUbTuaBuIhhecEj5mt5URreZw7EET_BG1Ro6pI181%40thread.tacv2/DevEx?groupId=5944ba60-15cf-4b5c-b359-a7819160e34a&tenantId=8ca5db88-a5ab-48f7-a5e0-4ce50935f807&ngc=true'
@@ -287,7 +287,7 @@ metadata:
     - graphql
     - example
   annotations:
-    github.com/project-slug: Oz-hubs/shop-catalog-graphql-service
+    github.com/project-slug: HylandSandbox/shop-catalog-graphql-service
     backstage.io/techdocs-ref: dir:./shop-catalog-graphql-service
   links:
     - url: 'https://teams.microsoft.com/l/channel/19%3AwpFJUbTuaBuIhhecEj5mt5URreZw7EET_BG1Ro6pI181%40thread.tacv2/DevEx?groupId=5944ba60-15cf-4b5c-b359-a7819160e34a&tenantId=8ca5db88-a5ab-48f7-a5e0-4ce50935f807&ngc=true'
@@ -362,7 +362,7 @@ metadata:
     - backend
     - example
   annotations:
-    github.com/project-slug: Oz-hubs/shop-inventory-service
+    github.com/project-slug: HylandSandbox/shop-inventory-service
     backstage.io/techdocs-ref: dir:./shop-inventory-service
   links:
     - url: 'https://teams.microsoft.com/l/channel/19%3AwpFJUbTuaBuIhhecEj5mt5URreZw7EET_BG1Ro6pI181%40thread.tacv2/DevEx?groupId=5944ba60-15cf-4b5c-b359-a7819160e34a&tenantId=8ca5db88-a5ab-48f7-a5e0-4ce50935f807&ngc=true'
@@ -433,7 +433,7 @@ metadata:
     - backend
     - example
   annotations:
-    github.com/project-slug: Oz-hubs/shop-notification-service
+    github.com/project-slug: HylandSandbox/shop-notification-service
     backstage.io/techdocs-ref: dir:./shop-notification-service
   links:
     - url: 'https://teams.microsoft.com/l/channel/19%3AwpFJUbTuaBuIhhecEj5mt5URreZw7EET_BG1Ro6pI181%40thread.tacv2/DevEx?groupId=5944ba60-15cf-4b5c-b359-a7819160e34a&tenantId=8ca5db88-a5ab-48f7-a5e0-4ce50935f807&ngc=true'
@@ -521,7 +521,7 @@ metadata:
     - library
     - example
   annotations:
-    github.com/project-slug: Oz-hubs/shop-shared-lib
+    github.com/project-slug: HylandSandbox/shop-shared-lib
     backstage.io/techdocs-ref: dir:./shop-shared-lib
   links:
     - url: 'https://teams.microsoft.com/l/channel/19%3AwpFJUbTuaBuIhhecEj5mt5URreZw7EET_BG1Ro6pI181%40thread.tacv2/DevEx?groupId=5944ba60-15cf-4b5c-b359-a7819160e34a&tenantId=8ca5db88-a5ab-48f7-a5e0-4ce50935f807&ngc=true'
@@ -543,7 +543,7 @@ metadata:
     - frontend
     - example
   annotations:
-    github.com/project-slug: Oz-hubs/shop-admin-web
+    github.com/project-slug: HylandSandbox/shop-admin-web
     backstage.io/techdocs-ref: dir:./shop-admin-web
   links:
     - url: 'https://teams.microsoft.com/l/channel/19%3AwpFJUbTuaBuIhhecEj5mt5URreZw7EET_BG1Ro6pI181%40thread.tacv2/DevEx?groupId=5944ba60-15cf-4b5c-b359-a7819160e34a&tenantId=8ca5db88-a5ab-48f7-a5e0-4ce50935f807&ngc=true'

@@ -3,7 +3,7 @@ kind: Template
 metadata:
   name: new-group-test-repo
   title: New Group Test Repository
-  description: Creates a new GitHub repository for group testing, pre-populated with a README and a Backstage catalog descriptor, owned by the Oz-hubs organization.
+  description: Creates a new GitHub repository for group testing, pre-populated with a README and a Backstage catalog descriptor, owned by the HylandSandbox organization.
 spec:
   owner: group:default/oz-hubs
   type: service
@@ -38,7 +38,7 @@ spec:
           title: Code Owners
           type: string
           description: 'GitHub CODEOWNERS entry (e.g. @org/team-name or @username)'
-          default: '@Oz-hubs'
+          default: '@HylandSandbox'
         team:
           title: GitHub Team
           type: string
@@ -65,7 +65,7 @@ spec:
             allowedHosts:
               - github.com
             allowedOwners:
-              - Oz-hubs
+              - HylandSandbox
 
   steps:
     - id: fetch-base
