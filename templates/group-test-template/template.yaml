@@ -5,7 +5,7 @@ metadata:
   title: New Group Test Repository
   description: Creates a new GitHub repository for group testing, pre-populated with a README and a Backstage catalog descriptor, owned by the HylandSandbox organization.
 spec:
-  owner: group:default/oz-hubs
+  owner: group:default/HylandSandbox
   type: service
 
   parameters:
@@ -29,7 +29,7 @@ spec:
           title: Owner
           type: string
           description: Owner of the component
-          default: group:default/oz-hubs
+          default: group:default/HylandSandbox
           ui:field: OwnerPicker
           ui:options:
             catalogFilter:
@@ -103,7 +103,7 @@ spec:
       input:
         recipients: entity
         entityRefs:
-          - group:default/oz-hubs
+          - group:default/HylandSandbox
         title: Repository created
         info: '${{ parameters.name }} has been created and registered in the catalog.'
         severity: normal

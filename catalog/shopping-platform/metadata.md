@@ -5,7 +5,7 @@
 - **System Name**: `shopping-platform`
 - **Description**: Example e-commerce platform composed of frontend, backend, database and external APIs
 - **Tags**: `example`, `ecommerce`
-- **Owner**: `oz-hubs`
+- **Owner**: `HylandSandbox`
 - **TechDocs Reference**: `dir:./system`
 
 ## 2. Entity Inventory (by Kind)
@@ -88,7 +88,7 @@ Metadata that can be aggregated:
 
 ## 10. Ownership & Governance
 
-- **Single Owner**: All entities owned by `oz-hubs` (group defined in [org.yaml](catalog/org.yaml))
+- **Single Owner**: All entities owned by `HylandSandbox` (group defined in [org.yaml](catalog/org.yaml))
 - **Governance Opportunity**:
   - Low diversity: 100% ownership by one group
   - Potential for team assignment and RACI matrix expansion

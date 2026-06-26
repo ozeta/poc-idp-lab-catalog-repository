@@ -6,7 +6,7 @@ info:
     REST API exposed by `shop-catalog-service`.
     Lets clients browse products and categories of the shopping platform.
   contact:
-    name: oz-hubs
+    name: HylandSandbox
 servers:
   - url: https://catalog.shopping-platform.local
     description: Local example server

@@ -19,7 +19,7 @@ metadata:
     - url: 'https://teams.microsoft.com/l/channel/19%3AwpFJUbTuaBuIhhecEj5mt5URreZw7EET_BG1Ro6pI181%40thread.tacv2/DevEx?groupId=5944ba60-15cf-4b5c-b359-a7819160e34a&tenantId=8ca5db88-a5ab-48f7-a5e0-4ce50935f807&ngc=true'
       title: Microsoft Teams Channel
 spec:
-  owner: oz-hubs
+  owner: HylandSandbox
 ---
 # Frontend ----------------------------------------------------------------------
 apiVersion: backstage.io/v1alpha1
@@ -40,7 +40,7 @@ metadata:
 spec:
   type: website
   lifecycle: production
-  owner: oz-hubs
+  owner: HylandSandbox
   system: shopping-platform
   consumesApis:
     - shop-orders-rest-api
@@ -65,7 +65,7 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: oz-hubs
+  owner: HylandSandbox
   system: shopping-platform
   providesApis:
     - shop-orders-rest-api
@@ -99,7 +99,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: oz-hubs
+  owner: HylandSandbox
   system: shopping-platform
   definition: |
     openapi: 3.0.0
@@ -154,7 +154,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: oz-hubs
+  owner: HylandSandbox
   system: shopping-platform
   definition: |
     openapi: 3.0.0
@@ -191,7 +191,7 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: oz-hubs
+  owner: HylandSandbox
   system: shopping-platform
   providesApis:
     - payment-gateway-api
@@ -213,7 +213,7 @@ metadata:
 spec:
   type: database
   lifecycle: production
-  owner: oz-hubs
+  owner: HylandSandbox
   system: shopping-platform
 ---
 # =============================================================================
@@ -238,7 +238,7 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: oz-hubs
+  owner: HylandSandbox
   system: shopping-platform
   providesApis:
     - shop-catalog-rest-api
@@ -268,7 +268,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: oz-hubs
+  owner: HylandSandbox
   system: shopping-platform
   # The OpenAPI spec lives in a separate file; Backstage resolves the placeholder
   # at ingestion time (path is relative to this catalog YAML).
@@ -295,7 +295,7 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: oz-hubs
+  owner: HylandSandbox
   system: shopping-platform
   providesApis:
     - shop-catalog-graphql-api
@@ -327,7 +327,7 @@ metadata:
 spec:
   type: graphql
   lifecycle: production
-  owner: oz-hubs
+  owner: HylandSandbox
   system: shopping-platform
   definition:
     $text: ./shop-catalog-graphql-api/schema.graphql
@@ -348,7 +348,7 @@ metadata:
 spec:
   type: database
   lifecycle: production
-  owner: oz-hubs
+  owner: HylandSandbox
   system: shopping-platform
 ---
 # Inventory service -------------------------------------------------------------
@@ -370,7 +370,7 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: oz-hubs
+  owner: HylandSandbox
   system: shopping-platform
   providesApis:
     - shop-inventory-rest-api
@@ -401,7 +401,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: oz-hubs
+  owner: HylandSandbox
   system: shopping-platform
   definition: |
     openapi: 3.0.0
@@ -441,7 +441,7 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: oz-hubs
+  owner: HylandSandbox
   system: shopping-platform
   consumesApis:
     - shop-orders-rest-api
@@ -468,7 +468,7 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: oz-hubs
+  owner: HylandSandbox
   system: shopping-platform
   providesApis:
     - smtp-api
@@ -495,7 +495,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: oz-hubs
+  owner: HylandSandbox
   system: shopping-platform
   definition: |
     openapi: 3.0.0
@@ -529,7 +529,7 @@ metadata:
 spec:
   type: library
   lifecycle: production
-  owner: oz-hubs
+  owner: HylandSandbox
   system: shopping-platform
 ---
 # Admin frontend ----------------------------------------------------------------
@@ -551,7 +551,7 @@ metadata:
 spec:
   type: website
   lifecycle: production
-  owner: oz-hubs
+  owner: HylandSandbox
   system: shopping-platform
   consumesApis:
     - shop-orders-rest-api
@@ -575,5 +575,5 @@ metadata:
 spec:
   type: message-broker
   lifecycle: production
-  owner: oz-hubs
+  owner: HylandSandbox
   system: shopping-platform

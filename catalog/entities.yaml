@@ -8,7 +8,7 @@ metadata:
     - url: 'https://teams.microsoft.com/l/channel/19%3AwpFJUbTuaBuIhhecEj5mt5URreZw7EET_BG1Ro6pI181%40thread.tacv2/DevEx?groupId=5944ba60-15cf-4b5c-b359-a7819160e34a&tenantId=8ca5db88-a5ab-48f7-a5e0-4ce50935f807&ngc=true'
       title: Microsoft Teams Channel
 spec:
-  owner: oz-hubs
+  owner: HylandSandbox
 ---
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
 apiVersion: backstage.io/v1alpha1
@@ -21,7 +21,7 @@ metadata:
 spec:
   type: website
   lifecycle: experimental
-  owner: oz-hubs
+  owner: HylandSandbox
   system: examples
   providesApis: [example-grpc-api]
 ---
@@ -36,7 +36,7 @@ metadata:
 spec:
   type: grpc
   lifecycle: experimental
-  owner: oz-hubs
+  owner: HylandSandbox
   system: examples
   definition: |
     syntax = "proto3";
@@ -58,7 +58,7 @@ metadata:
     - url: 'https://teams.microsoft.com/l/channel/19%3AwpFJUbTuaBuIhhecEj5mt5URreZw7EET_BG1Ro6pI181%40thread.tacv2/DevEx?groupId=5944ba60-15cf-4b5c-b359-a7819160e34a&tenantId=8ca5db88-a5ab-48f7-a5e0-4ce50935f807&ngc=true'
       title: Microsoft Teams Channel
 spec:
-  owner: oz-hubs
+  owner: HylandSandbox
 ---
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-resource
 apiVersion: backstage.io/v1alpha1
@@ -72,7 +72,7 @@ metadata:
 spec:
   type: postgres
   lifecycle: experimental
-  owner: oz-hubs
+  owner: HylandSandbox
   system: local-dev
 ---
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
@@ -89,7 +89,7 @@ metadata:
 spec:
   type: website
   lifecycle: experimental
-  owner: oz-hubs
+  owner: HylandSandbox
   system: local-dev
   dependsOn:
     - resource:default/local-postgres

@@ -5,7 +5,7 @@ metadata:
   title: New Python Repository Foundation
   description: Creates a new GitHub repository for Python projects with TechDocs, engineering governance, and repo standards files.
 spec:
-  owner: user:guest
+  owner: group:default/HylandSandbox
   type: service
 
   parameters:
@@ -95,7 +95,7 @@ spec:
       input:
         recipients: entity
         entityRefs:
-          - user:default/guest
+          - group:default/HylandSandbox
         title: Repository created
         info: "${{ parameters.name }} has been created and registered in the catalog."
         severity: normal

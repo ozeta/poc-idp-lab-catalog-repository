@@ -20,5 +20,5 @@ metadata:
 spec:
   type: documentation
   lifecycle: experimental
-  owner: oz-hubs
+  owner: HylandSandbox
   system: local-dev
